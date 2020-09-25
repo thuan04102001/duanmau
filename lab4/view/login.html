@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HOSTINGER-FORM</title>
+    <link rel="stylesheet" href="../view/css/formlogin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="jquery-3.5.0.js"></script>
+</head>
+
+<body>
+    <section>
+        <div class="boxcenter">
+            <!-- <div class="row center pad40">
+                <img src="images/logo.webp" alt="">
+            </div> -->
+            <div class="row bgwhite center">
+                <div class="row center sigup">
+                    <h2>Đăng nhập</h2>
+                </div>
+                <div class="row center">
+                    <div class="mxh">
+                        <a href="#"><i class="fa fa-facebook-square fb"></i></a>
+                        <a href="#"><i class="fa fa-google-plus-square gg"></i></a>
+                    </div>
+                </div>
+                <div class="all60 center ">
+                    <div class="box1 mb"></div>
+                    <div class="box3 mb">
+                        <span>HOẶC</span>
+                        <span>LÀ</span>
+                    </div>
+                    <div class="box2 mb"></div>
+                </div>
+                <div class="row center">
+                    <input type="email" name="email" id="email" placeholder="      Địa chỉ Email"><br>
+                    <div id="check"></div>
+                    <input type="password" name="pass" id="pass" placeholder="      Mật khẩu"><br>
+                    <div id="check1"></div>
+                    <input type="submit" id="login" value="Đăng nhập"><br>
+                    <a href="#">Quên mật khẩu</a>
+                </div>
+            </div>
+            <div class="row center pad40">
+                <div class="footer">
+                    <a href="#">Chưa phải là thành viên? Chào mừng gia nhập - <span>Đăng ký ngay!</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        $(function() {
+            $("#login").click(function(e) {
+                e.preventDefault();
+                var email = $("#email").val();
+                var pass = $("#pass").val();
+
+                if (email > "" && pass > "") {
+                    var email1 = document.getElementById('email');
+                    var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+                    if (!filter.test(email1.value)) {
+                        $("#check").text("Email không hợp lệ !!! Vui lòng nhập lại.");
+                        $("#check1").text("");
+                        email1.focus;
+                        return false;
+                    } else {
+                        alert('Đăng nhập thành công <3 \n' + 'Tài khoản: ' + email + '\nPassword: ' + pass);
+                        $("#check").text("");
+                        $("#check1").text("");
+                    }
+                } else {
+                    if (email == "" && pass == "") {
+                        $("#check").text("Không được để trống email !");
+                        $("#check1").text("Không được để trống password !");
+                    } else {
+                        if (email == "") {
+                            $("#check").text("Không được để trống email !");
+                            $("#check1").text("");
+                        } else {
+                            $("#check").text("");
+                            $("#check1").text("Không được để trống password !");
+                        }
+                    }
+                }
+
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <head>Admin | Logout</head>
+    <aside>
+        <ul>
+            <li> <a href="#">Home</a> </li>
+            <li> <a href="#">Quản lí danh mục</a> </li>
+            <li> <a href="#">Quản lí sản phẩm</a> </li>
+            <li> <a href="#">Quản lí dayupdate</a> </li>
+            <li> <a href="#">Logout</a> </li>
+
+        </ul>
+    </aside>
+    <section>
+        <div class="row">
+            <form action="admin.php?act=qlsp" method="post" enctype="multipart/form-data">
+                <input type="text" name="name" id="" placeholder=" Tên sản phẩm...">
+                <input type="text" name="timeupdate" id="" placeholder=" Time update">
+                <input type="text" name="price" id="" placeholder=" Giá sản phẩm">
+                <input type="file" name="img" id="" placeholder="Upload img">
+                <input type="submit" value="Thêm" name=them>
+            </form>
+        </div>
+        <div class="row">
+            <table>
+                <tr>
+                    <td>id</td>
+                    <td>name</td>
+                    <td>update</td>
+                    <td>img</td>
+                    <td>price</td>
+                    <td>edit</td>
+                    <td>delete</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <footer>Copyright &copy 2020</footer>
+</body>
+
+</html>

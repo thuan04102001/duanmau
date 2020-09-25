@@ -1,0 +1,706 @@
+@media screen and (max-width: 414px) {
+    /* phần header */
+    .all80 {
+        width: 80%;
+    }
+    .allheader {
+        width: 100%;
+        position: fixed;
+        z-index: 999;
+    }
+    .header {
+        min-height: 40px;
+    }
+    .h1 {
+        float: left;
+        width: 20%;
+    }
+    .h1 img {
+        float: left;
+        width: 60%;
+        margin: 10px 0px;
+        border-radius: 50px;
+    }
+    .h2 {
+        float: left;
+        width: 0%;
+        min-height: 25px;
+    }
+    .h3 {
+        float: left;
+        width: 60%;
+        padding: 15px 0px;
+    }
+    .menutop {
+        text-align: end;
+        cursor: pointer;
+    }
+    .menutop a {
+        text-decoration: none;
+        color: white !important;
+        font-size: 6pt;
+        font-weight: bold;
+        padding: 4px 10px;
+    }
+    .menutop a:hover {
+        background-color: rgb(28, 130, 247);
+        border-radius: 15px;
+    }
+    .bgmenutop {
+        background-color: rgb(28, 130, 247);
+        border-radius: 15px;
+    }
+    .h4 {
+        float: right;
+        width: 20%;
+        text-align: end;
+        padding: 15px 0px;
+    }
+    .menutop1 a {
+        font-size: 5pt;
+        text-decoration: none;
+        line-height: 20px;
+        color: white !important;
+        padding: 4px 10px;
+        background-color: rgb(0, 0, 0);
+        border-radius: 10px;
+        border: 2px inset white;
+    }
+    .menutop1 a:hover {
+        color: black !important;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        border: 2px unset white;
+        cursor: help;
+    }
+    /* phần thân */
+    .allthan {
+        width: 100%;
+    }
+    /* giới thiệu*/
+    .hoa {
+        width: 100%;
+        background-position: center;
+        background-size: 100%;
+        background-position-y: 0px;
+        background-attachment: fixed;
+    }
+    .intro {
+        width: 100%;
+        background-color: black;
+        min-height: auto;
+        text-align: center;
+    }
+    .overlay {
+        background-color: rgba(0, 0, 0, .70);
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding: 26.2% 0%;
+    }
+    .textintro {
+        margin: 0px;
+    }
+    .textintro p {
+        color: white;
+        font-size: 18pt !important;
+        margin: 0px;
+    }
+    .intro h1 {
+        color: white;
+        font-size: 28pt;
+        font-weight: 300;
+    }
+    .get a {
+        text-decoration: none;
+        color: white;
+    }
+    .bgget {
+        background-color: rgb(17, 191, 235);
+        border-radius: 20px;
+        /* border: 2px ridge rgb(61, 61, 238); */
+        padding: 10px 20px;
+    }
+    .insta {
+        background-color: #FEE140;
+        background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);
+    }
+    .get a:hover {
+        background-color: rgb(47, 116, 245);
+    }
+    .textintro span {
+        font-weight: bold;
+    }
+    .link {
+        margin-top: 40px;
+    }
+    .link a {
+        text-decoration: underline;
+        color: #999;
+        background-color: unset !important;
+    }
+    /* gói vip */
+    .thuoctinh {
+        width: 100%;
+    }
+    .thuoctinh h1 {
+        margin: 0px;
+        color: black;
+        font-size: 20pt;
+        font-weight: bold;
+    }
+    .sale {
+        width: 100%;
+        float: left;
+        background-color: rgb(125, 197, 255);
+        margin-top: 50px;
+        margin-bottom: -100px;
+    }
+    .thuoctinh {
+        background-color: white;
+        min-height: auto;
+    }
+    .mt100 {
+        margin: 100px 0px;
+    }
+    .rows {
+        float: left;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 100px;
+    }
+    .mgt-60 {
+        margin-top: -60px;
+    }
+    .cmm {
+        margin-top: -20px;
+    }
+    .mr4 {
+        margin-right: 5%;
+    }
+    .icons {
+        float: left;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .icons img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    .tendv {
+        float: right;
+        width: 100%;
+    }
+    .tendv b {
+        color: red;
+    }
+    .cmm {
+        height: 20px;
+    }
+    .rows h2 {
+        margin: 0px;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 800;
+        letter-spacing: .5px;
+        margin-bottom: 10px;
+    }
+    .rows p {
+        line-height: 28px;
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+    .rows .more {
+        color: rgb(86, 176, 250);
+        text-decoration: none;
+        font-size: 18px;
+        display: inline-block;
+        margin-top: 200px;
+    }
+    .rows .more:hover {
+        text-decoration: underline;
+        color: rgb(0, 66, 247);
+    }
+    .moree {
+        margin-bottom: 50px;
+    }
+    /*công việv */
+    .sanpham {
+        background-color: whitesmoke;
+        min-height: 1000px;
+    }
+    .sanpham h1 {
+        margin: 0px;
+        color: black;
+        font-size: 20pt;
+        font-weight: bold;
+        margin-top: -50px;
+    }
+    .sanpham .contact1 p {
+        color: #888;
+        margin-bottom: 50px;
+        font-size: 12pt;
+    }
+    /*----mua sp*/
+    .boxpro:hover img {
+        transform: scale(1.5);
+        transition: 0.8s;
+    }
+    .boxpro::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 0px;
+        height: 0px;
+        border: 0px rgb(0, 0, 0) solid;
+        transition: 0.2s;
+    }
+    .boxpro:hover::after {
+        border: 5px #090 solid;
+        top: 0;
+        left: 0;
+        width: calc(100% - 10px);
+        height: calc(90% - 30px);
+        transition: 0.8s;
+    }
+    .shop {
+        display: none;
+    }
+    table {
+        border-collapse: collapse;
+    }
+    td,
+    th {
+        padding: 5px 2px;
+    }
+    #boxsanpham {
+        width: 100%;
+    }
+    .boxpro p:nth-child(2) {
+        color: blueviolet;
+        font-size: 10pt;
+    }
+    .boxpro p:nth-child(3) {
+        font-size: 12pt;
+        line-height: 16px;
+    }
+    .boxpro {
+        float: left;
+        width: 48%;
+        margin-bottom: 10px;
+        line-height: 5px;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 2px 3px 8px #ccc;
+    }
+    .mb10 {
+        margin-bottom: 10px !important;
+    }
+    .mr2 {
+        margin-right: 0%;
+    }
+    .mr2s {
+        margin-right: 2%;
+    }
+    .mb0 {
+        margin-bottom: 0px;
+    }
+    .mb100 {
+        margin-bottom: 0px;
+    }
+    .mb50 {
+        margin-bottom: 50px;
+    }
+    .boxpro img {
+        width: 100%;
+        margin-bottom: 15px;
+        object-fit: cover;
+    }
+    .boxpro p {
+        margin-left: 10px;
+    }
+    .cc {
+        font-weight: bold;
+        font-size: 11pt;
+        line-height: 5px;
+    }
+    .boxpro button {
+        margin-bottom: 10px;
+        margin-left: 95px;
+        width: 60px;
+        min-height: 40px;
+        z-index: 999;
+    }
+    .boxpro button:hover {
+        background-color: rgb(187, 184, 184);
+    }
+    p span {
+        color: red;
+    }
+    .icon img {
+        margin-top: 2px;
+        width: 35px;
+        height: 35px;
+        border-radius: 30px;
+        object-fit: cover;
+        margin-bottom: -5px;
+    }
+    .icon {
+        position: fixed;
+        right: 4px;
+        top: 250px;
+        padding: 2px;
+        border: 1px #f90 solid;
+        border-radius: 20px;
+        background-color: whitesmoke;
+        text-align: center;
+        z-index: 999;
+        cursor: zoom-in;
+    }
+    #countsp {
+        font-size: 10pt;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+    .boxcart {
+        font-size: 8pt;
+        position: fixed;
+        right: 45px;
+        top: 280px;
+        padding: 10px;
+        border: 1px #f90 solid;
+        border-radius: 5px;
+        background-color: whitesmoke;
+        z-index: 999;
+    }
+    .hoadon {
+        margin: 10px 0px;
+        font-weight: bold;
+        font-size: 10pt;
+    }
+    #total {
+        color: red;
+        font-size: 12pt;
+    }
+    .close {
+        text-align: end;
+    }
+    .close button {
+        width: 20px;
+        min-height: 20px;
+        border: 1px black solid;
+        border-radius: 30px;
+        background-color: rgb(97, 218, 255);
+    }
+    .close button:hover {
+        background-color: red;
+        color: white;
+        cursor: zoom-out;
+    }
+    /*demo công việc */
+    .mywork {
+        float: left;
+        width: 100%;
+        min-height: auto;
+        padding: 50px 0px;
+        z-index: 1;
+    }
+    .overlay1 {
+        background-color: rgba(0, 0, 0, .75);
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .work {
+        float: left;
+        width: 100%;
+    }
+    .box1 {
+        float: left;
+        width: 0%;
+        display: none;
+    }
+    .box2 {
+        float: left;
+        width: 100%;
+    }
+    .work .box1 {
+        text-align: center;
+    }
+    .work .box1 img {
+        width: 45%;
+    }
+    .profile {
+        width: 150px;
+        background-color: black;
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 9pt;
+        font-weight: 800;
+        border: 2px solid white;
+        padding: 10px 0px;
+    }
+    .content {
+        font-size: 25pt;
+        color: white;
+    }
+    .bla {
+        color: #999;
+        font-size: 12.5pt;
+        line-height: 25px;
+    }
+    .mxh {
+        margin-top: 0px;
+        margin-bottom: 18px;
+    }
+    .bgmxh {
+        padding: 15px 20px;
+        background-color: white;
+        color: black;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 800;
+        font-size: 10pt;
+        margin-right: 25px;
+        border: 2px solid white;
+    }
+    .bgmxh:hover {
+        background-color: black;
+        color: white;
+        border: 2px solid white;
+    }
+    /*liên hệ*/
+    .lienhe {
+        background-color: whitesmoke;
+        min-height: auto;
+        z-index: 1;
+    }
+    .lienhe .contact2 {
+        text-align: center;
+    }
+    .lienhe h1 {
+        margin: 0px;
+        color: black;
+        font-size: 20pt;
+        font-weight: bold;
+    }
+    .lienhe p {
+        color: #888;
+        margin-bottom: 50px;
+        font-size: 12pt;
+    }
+    .lienhe .diachi {
+        margin-top: 20px;
+    }
+    .lienhe .diachi iframe {
+        width: 250px;
+        height: 250px;
+    }
+    .lienhe .mess .ipw1 {
+        width: 99.5%;
+    }
+    .lienhe .mess .ipw2 {
+        width: 99.5%;
+        min-height: 200px;
+    }
+    .contact2 {
+        margin-top: 25px;
+    }
+    .info {
+        width: 80%;
+        float: left;
+        margin-bottom: -75px !important;
+    }
+    .mess {
+        width: 100%;
+        float: right;
+    }
+    input[type="text"] {
+        width: 49%;
+        min-height: 40px;
+        margin-bottom: 25px;
+    }
+    input[type="email"] {
+        width: 47.1%;
+        min-height: 40px;
+        margin-left: 0px;
+        margin-bottom: 25px;
+    }
+    input[type="text"]:hover {
+        border: 2px ridge black;
+    }
+    input[type="email"]:hover {
+        border: 2px ridge black;
+    }
+    .lienhe button {
+        width: 50%;
+        min-height: 50px;
+        background-color: black;
+        color: white;
+        border: 2px black;
+    }
+    .lienhe button:hover {
+        background-color: white;
+        color: black;
+        font-weight: bold;
+        border: 2px ridge black;
+    }
+    #kq {
+        margin-top: 50px;
+        width: 100%;
+        color: black;
+        font-size: 14pt;
+    }
+    #error {
+        margin-top: 50px;
+        width: 100%;
+        background-color: yellow;
+        min-height: auto;
+        line-height: 40px;
+        text-align: center;
+    }
+    #error b {
+        color: red !important;
+        font-weight: bold;
+    }
+    #kq b {
+        color: darkblue;
+        font-weight: bold;
+    }
+    /*follow me*/
+    .followme {
+        background-color: white;
+        min-height: auto;
+    }
+    .left {
+        float: left;
+        width: 65%;
+        padding: 50px 0px;
+    }
+    .left h3 {
+        font-size: 10pt;
+        color: rgb(70, 68, 68);
+        margin: 0px;
+    }
+    .right {
+        float: right;
+        width: 35%;
+        padding: 56px 0px;
+    }
+    .sub {
+        background-color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: black;
+        font-size: 8pt;
+        font-weight: 800;
+        border: 2px black solid;
+        padding: 5px;
+    }
+    .sub:hover {
+        background-color: black;
+        color: white;
+    }
+    /*---footer2---------*/
+    .footer {
+        float: left;
+        width: 100%;
+        background-color: black;
+        min-height: auto;
+        text-align: center;
+    }
+    .footer .text .tym {
+        font-size: 12px;
+        color: red;
+        height: 10px;
+    }
+    .admin img {
+        width: 10%;
+        border-radius: 30px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    .text {
+        color: #888;
+        margin-bottom: 50px;
+    }
+    .text p {
+        font-size: 10pt;
+    }
+    .text a {
+        text-decoration: none;
+        color: rgb(8, 224, 240);
+    }
+    /* .footer {
+        float: left;
+        width: 100%;
+        background-color: burlywood;
+        min-height: auto;
+    }
+    .mbt10 {
+        margin-bottom: 10px;
+    }
+    .pdright15 {
+        padding-right: 15px;
+    }
+    .pdleft30 {
+        padding-left: 0px;
+    }
+    .footer-contact {
+        width: 100%;
+        font-size: 11pt;
+        padding: 0px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    .contact-certification img {
+        width: 50%;
+        float: left;
+    }
+    .footer-nav {
+        width: calc(55% - 15px);
+        float: left;
+        font-size: 11pt;
+        padding: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .footer-oh {
+        width: 45%;
+        float: left;
+        font-size: 11pt;
+        padding: 0px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .footer-subscribe {
+        width: 100%;
+        padding: 0px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    .noclear {
+        list-style: none;
+        margin-left: -38px;
+    }
+    .allfooter h3 {
+        margin-top: 0px !important;
+    }
+    li a {
+        line-height: 25px;
+        text-decoration: none;
+        color: black;
+    }
+    .sub2 input[type="email"] {
+        width: 80%;
+        min-height: 30px;
+        margin-left: 0px;
+        margin-top: 10px;
+    } */
+}

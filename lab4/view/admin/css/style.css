@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    background-color: lightblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header {
+    width: 100%;
+    font-size: 26pt;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.header span {
+    color: orangered;
+}
+
+
+/* menu */
+
+.menucenter {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.box1 {
+    float: left;
+    width: 20%;
+    min-height: 50px;
+}
+
+.box2 {
+    float: left;
+    width: 20%;
+    min-height: 50px;
+}
+
+.menu {
+    float: left;
+    width: 60%;
+    background-color: whitesmoke;
+    min-height: auto;
+}
+
+.menu ul {
+    float: left;
+    margin: 0;
+    margin: 20px 0px;
+    padding: 0px;
+}
+
+.menu ul li {
+    list-style: none;
+    float: left;
+}
+
+.menu ul li a {
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+.menu i {
+    margin-right: 5px;
+}
+
+.menucon {
+    width: 75%;
+    margin: 0 auto;
+    min-height: auto;
+}
+
+
+/* home */
+
+hr {
+    margin: 40px 0px;
+}
+
+.home {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/* quản lí danh mục */
+
+.tiltel {
+    text-align: center;
+}
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+
+/* input nhập ,edit */
+
+form {
+    text-align: center;
+}
+
+input[type="text"] {
+    font-weight: bold;
+    font: sans-serif;
+    font-size: 8pt;
+    color: white;
+    width: 10%;
+    background-color: wheat;
+    min-height: 25px;
+    border: solid rgb(177, 177, 177);
+    border-radius: 20px;
+    color: black;
+    outline: none;
+    margin-top: 60px;
+}
+
+input[type="text"]:hover {
+    border: solid blue;
+}
+
+input[type="checkbox"] {
+    margin-top: 60px;
+}
+
+input[type="submit"] {
+    font-weight: bold;
+    font: sans-serif;
+    font-size: 8pt;
+    color: white;
+    width: 60px;
+    background-color: tomato;
+    min-height: 30px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 60px;
+}
+
+input[type="submit"]:hover {
+    background-color: orangered;
+}
+
+
+/* footer */
+
+.footer {
+    text-align: center;
+}
+
+.footer img {
+    height: 60px;
+    border-radius: 20px;
+}

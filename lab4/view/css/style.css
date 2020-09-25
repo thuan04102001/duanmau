@@ -1,0 +1,1255 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    background-color: whitesmoke;
+    font-family: sans-serif;
+}
+
+
+/* phần header */
+
+.allheader {
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+}
+
+.header {
+    min-height: 80px;
+}
+
+#header {
+    background-color: black;
+}
+
+.test {
+    background-color: black;
+}
+
+.test1 {
+    background-color: black;
+}
+
+.h1 {
+    float: left;
+    width: 15%;
+}
+
+.h1 img {
+    float: left;
+    width: 45%;
+    margin: 20px 0px;
+    border-radius: 50px;
+}
+
+.h2 {
+    float: left;
+    width: 25%;
+    padding: 40px 0px;
+}
+
+.h2 input[type="text"] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+    outline: none;
+    padding: 12px 14px;
+}
+
+.h2 input {
+    outline: none;
+}
+
+.h2 input[type=search] {
+    -webkit-appearance: textfield;
+    /* -webkit-box-sizing: content-box; */
+    font-family: inherit;
+    font-size: 100%;
+}
+
+.h2 input::-webkit-search-decoration,
+.h2 input::-webkit-search-cancel-button {
+    display: none;
+}
+
+.h2 input[type=search] {
+    background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+    border: solid 1px #ccc;
+    padding: 9px 10px 9px 32px;
+    width: 150px;
+    -webkit-border-radius: 10em;
+    -moz-border-radius: 10em;
+    border-radius: 10em;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+
+.h2 input[type=search]:focus {
+    width: 250px;
+    background-color: #fff;
+    border-color: #66CC75;
+    -webkit-box-shadow: 0 0 5px rgba(109, 207, 246, .5);
+    -moz-box-shadow: 0 0 5px rgba(109, 207, 246, .5);
+    box-shadow: 0 0 5px rgba(109, 207, 246, .5);
+}
+
+.h2 input:-moz-placeholder {
+    color: #999;
+}
+
+.h2 input::-webkit-input-placeholder {
+    color: #999;
+}
+
+.h3 {
+    float: left;
+    width: 35%;
+    padding: 50px 0px;
+}
+
+.menutop {
+    text-align: end;
+    cursor: pointer;
+}
+
+.menutop a {
+    text-decoration: none;
+    color: white !important;
+    font-size: 12pt;
+    font-weight: bold;
+    padding: 12px 30px;
+}
+
+.menutop a:hover {
+    background-color: rgb(28, 130, 247);
+    border-radius: 15px;
+}
+
+.bgmenutop {
+    background-color: rgb(28, 130, 247);
+    border-radius: 15px;
+}
+
+.h4 {
+    float: right;
+    width: 25%;
+    text-align: end;
+    padding: 20px 0px;
+}
+
+.h4 span {
+    font-size: 12pt;
+}
+
+.h4 .checkuser {
+    background-color: none;
+    outline: none;
+    border: none;
+    padding: 10px 10px;
+    margin-right: 30px;
+}
+
+.h4 i {
+    font-size: 12pt;
+    color: red;
+}
+
+.h4 a {
+    text-decoration: none;
+    color: white !important;
+}
+
+.menutop1 .hover {
+    line-height: 80px;
+    color: white !important;
+    padding: 10px 20px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: 2px inset white;
+}
+
+.h4 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.h4 ul li {
+    float: left;
+    margin: 0px 30px;
+}
+
+.h4 ul li a {
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: #666;
+}
+
+.h4 ul li ul {
+    width: 10%;
+    min-height: auto;
+    display: none;
+    position: absolute;
+    background-color: rgb(228, 34, 34);
+    padding: 0px 10px;
+    z-index: 999;
+    border-radius: 10px;
+    margin-left: 0px;
+    margin-top: -10px;
+}
+
+.h4 ul li ul li {
+    line-height: 0px;
+    margin: 5px;
+    padding: 0;
+}
+
+.h4 ul li ul li a {
+    float: left !important;
+    color: black;
+    font-weight: unset;
+}
+
+.h4 ul li ul li a:hover {
+    font-weight: bold;
+}
+
+.h4 ul li:hover ul {
+    display: block;
+}
+
+.ml {
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.menutop1 .hover:hover {
+    color: black !important;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 2px unset white;
+    cursor: help;
+}
+
+
+/* phần thân */
+
+.allthan {
+    width: 100%;
+}
+
+
+/* giới thiệu*/
+
+.intro {
+    width: 100%;
+    background-color: black;
+    min-height: auto;
+    text-align: center;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, .70);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 16.2% 0%;
+}
+
+.textintro {
+    margin: 0px;
+}
+
+.textintro p {
+    color: white;
+    font-size: 18pt !important;
+    margin: 0px;
+}
+
+.intro h1 {
+    color: white;
+    font-size: 40pt;
+    font-weight: 300;
+}
+
+.get a {
+    text-decoration: none;
+    color: white;
+}
+
+.bgget {
+    background-color: rgb(17, 191, 235);
+    border-radius: 20px;
+    /* border: 2px ridge rgb(61, 61, 238); */
+    padding: 10px 20px;
+}
+
+.insta {
+    background-color: #FEE140;
+    background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);
+}
+
+.get a:hover {
+    background-color: rgb(47, 116, 245);
+}
+
+.textintro span {
+    font-weight: bold;
+}
+
+.link {
+    margin-top: 40px;
+}
+
+.link a {
+    text-decoration: underline;
+    color: #999;
+    background-color: unset !important;
+}
+
+.hoa {
+    width: 100%;
+    background-position: center;
+    background-size: 90%;
+    background-attachment: fixed;
+}
+
+
+/* gói vip */
+
+.thuoctinh h1 {
+    margin: 0px;
+    color: black;
+    font-size: 30pt;
+    font-weight: 300;
+    padding: 10px;
+    text-align: center;
+}
+
+.sale {
+    width: 40%;
+    float: left;
+    background-color: rgb(145, 241, 201);
+    margin-top: 50px;
+    margin-bottom: 0px;
+    border-left: 8px solid rgb(125, 197, 255);
+    border-right: 8px solid rgb(125, 197, 255);
+    border-radius: 10px 50px 10px 40px;
+}
+
+.sales {
+    float: left;
+}
+
+.mb50 {
+    margin-bottom: 50px;
+}
+
+.thuoctinh {
+    background-color: white;
+    min-height: auto;
+}
+
+.mt100 {
+    margin: 50px 0px;
+}
+
+.rows {
+    float: left;
+    width: 30%;
+}
+
+.mr4 {
+    margin-right: 5%;
+}
+
+.icons {
+    float: left;
+    width: 15%;
+}
+
+.icons i {
+    font-size: 35px;
+}
+
+.icons img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.tendv {
+    float: right;
+    width: 85%;
+}
+
+.tendv b {
+    color: red;
+}
+
+.cmm {
+    height: 20px;
+}
+
+.rows h2 {
+    margin: 0px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: .5px;
+    margin-bottom: 10px;
+}
+
+.rows p {
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.rows .more {
+    color: rgb(86, 176, 250);
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-block;
+    margin-top: 200px;
+}
+
+.rows .more:hover {
+    text-decoration: underline;
+    color: rgb(0, 66, 247);
+}
+
+
+/*công việv */
+
+.contact1 p:nth-child(1) {
+    margin: 0px;
+    color: black !;
+    font-size: 15pt;
+    margin-top: 10px;
+    margin-bottom: -5px;
+}
+
+.contact1 p:nth-child(2) {
+    color: #888;
+    margin-bottom: 20px;
+    font-size: 10pt;
+}
+
+
+/*----mua sp----*/
+
+.all90 {
+    margin: 0 auto !important;
+    width: 90% !important;
+}
+
+.sanphams {
+    width: calc(80% - 40px);
+    float: left;
+    min-height: auto;
+    margin-left: 40px;
+}
+
+.danhmuc {
+    width: 20%;
+    float: left;
+    background-color: white;
+    min-height: auto;
+    border-radius: 5px;
+    box-shadow: 2px 3px 8px #ccc;
+}
+
+.dm1 {
+    float: left;
+    width: 100%;
+    min-height: auto;
+    background-color: rgb(152, 253, 253);
+    border-bottom: 1px rgb(165, 152, 152) solid;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.dm1 p {
+    float: left;
+    font-size: 14pt;
+    margin: 0px 0px;
+    padding: 10px 0px;
+    margin-left: 15px;
+}
+
+.dm1 i {
+    float: right;
+    font-size: 18pt;
+    padding: 10px 0px;
+    margin-right: 15px;
+}
+
+.dm2 {
+    float: left;
+    width: 100%;
+    min-height: auto;
+}
+
+.ldm {
+    position: relative;
+    float: left;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    min-height: auto;
+    margin-bottom: 20px;
+}
+
+.ldm a {
+    float: left;
+    color: black;
+    font-weight: unset;
+    font-size: 11pt;
+    margin: 0px 0px;
+    text-decoration: none;
+}
+
+.ldm ::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0%;
+    width: 0%;
+    border-bottom: 3px #1ba085 solid;
+    /* box-shadow: 0px -2px 8px 0px #1ba085; */
+    transition: 0.9s;
+}
+
+.ldm :hover::after {
+    bottom: -4px;
+    left: 0%;
+    right: 0%;
+    width: 100%;
+    transition: 0.9s;
+}
+
+.ldm span {
+    color: #999;
+    font-size: 11pt;
+    float: right;
+}
+
+.menudanhmuc {
+    float: left;
+    width: calc(80% - 40px);
+    min-height: auto;
+    margin-left: 40px;
+    border-bottom: 1px rgb(189, 189, 189) solid;
+}
+
+.menudanhmuc .mienphi {
+    float: left;
+    width: 30%;
+}
+
+.mienphi p {
+    float: left;
+    font-weight: bold;
+    font-size: 16pt;
+    margin-left: 8px;
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+
+.menudanhmuc .khac {
+    float: left;
+    width: 70%;
+}
+
+.textkhac {
+    text-align: right;
+}
+
+.khac a {
+    position: relative;
+    font-size: 12pt;
+    padding: 10px 10px;
+    margin: 0px 0px;
+    text-decoration: none;
+    color: black;
+}
+
+.khac a:hover {
+    color: #1ba085;
+}
+
+.mienphi a:hover {
+    color: #1ba085;
+}
+
+.khac a::after {
+    content: '';
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
+    width: 0%;
+    border-bottom: 3px #1ba085 solid;
+    box-shadow: 0px -2px 8px 0px #1ba085;
+    transition: 0.4s;
+}
+
+.khac a:hover::after {
+    bottom: 0;
+    left: 25%;
+    right: 25%;
+    width: 50%;
+    transition: 0.8s;
+}
+
+.shop {
+    display: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td,
+th {
+    padding: 10px 20px;
+}
+
+#boxsanpham {
+    float: left;
+    width: 100%;
+}
+
+.boxpro p:nth-child(2) {
+    color: blueviolet;
+}
+
+.boxpro {
+    float: left;
+    width: 32%;
+    line-height: 5px;
+    position: relative;
+    overflow: hidden;
+    border: 2px rgb(233, 233, 233) solid;
+    /* box-shadow: 2px 3px 8px #ccc; */
+    text-align: center;
+    margin: 0% calc(0.83% - 4px);
+    margin-bottom: 1%;
+}
+
+.boxpro a {
+    text-decoration: none;
+}
+
+.boxpro:hover img {
+    transform: scale(1.5);
+    transition: 0.8s;
+}
+
+
+/* .boxpro::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0px;
+    height: 0px;
+    border: 0px rgb(0, 0, 0) solid;
+    transition: 0.8s;
+} */
+
+.boxpro:hover {
+    box-shadow: 2px 3px 8px #ccc;
+    border: 2px #6aeeff solid;
+    /* top: 0;
+    left: 0;
+    width: calc(100% - 4px);
+    height: calc(84% - 10px);
+    transition: 0.8s; */
+}
+
+.mb0 {
+    margin-bottom: 0px;
+}
+
+.mb100 {
+    margin-bottom: 100px;
+}
+
+.boxpro img {
+    width: 50%;
+    height: 50%;
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+
+.boxpro p {
+    color: black;
+    margin-left: 10px;
+    font-size: 10pt;
+}
+
+.cc {
+    font-weight: bold;
+    font-size: 11pt;
+    line-height: 5px;
+}
+
+.addcart a {
+    text-decoration: none;
+    color: black !important;
+}
+
+.chitiet a {
+    text-decoration: none;
+    color: black;
+}
+
+.boxpro button {
+    outline: none;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: right;
+    width: 60px;
+    min-height: 40px;
+    border: 1px solid black;
+    border-radius: 20px !important;
+}
+
+.boxpro button:hover {
+    background-color: turquoise;
+    border: 0px solid rgb(211, 211, 211);
+}
+
+p span {
+    color: red;
+}
+
+.icon {
+    position: fixed;
+    right: 20px;
+    top: 305px;
+    padding: 10px;
+    border: 1px #f90 solid;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    text-align: center;
+    z-index: 999;
+    cursor: zoom-in;
+}
+
+.icon img {
+    width: 40px;
+}
+
+#countsp {
+    font-size: 14pt;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.boxcart {
+    position: fixed;
+    right: 85px;
+    top: 306px;
+    padding: 10px;
+    border: 1px #f90 solid;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    z-index: 999;
+}
+
+.hoadon {
+    margin: 20px 0px;
+    font-weight: bold;
+    font-size: 13pt;
+}
+
+#total {
+    color: red;
+    font-size: 15pt;
+}
+
+.close {
+    text-align: end;
+}
+
+.close button {
+    width: 30px;
+    min-height: 30px;
+    border: 1px black solid;
+    border-radius: 30px;
+    background-color: rgb(97, 218, 255);
+}
+
+.close button:hover {
+    background-color: red;
+    color: white;
+    cursor: zoom-out;
+}
+
+
+/*demo công việc */
+
+.mywork {
+    float: left;
+    width: 100%;
+    min-height: auto;
+    padding: 50px 0px;
+    z-index: 1;
+}
+
+.overlay1 {
+    background-color: rgba(0, 0, 0, .75);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.work {
+    float: left;
+    width: 100%;
+}
+
+.box1 {
+    float: left;
+    width: 50%;
+}
+
+.box2 {
+    float: left;
+    width: 45%;
+}
+
+.work .box1 {
+    text-align: center;
+}
+
+.work .box1 img {
+    width: 45%;
+}
+
+.profile {
+    width: 150px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 9pt;
+    font-weight: 800;
+    border: 2px solid white;
+    padding: 10px 0px;
+}
+
+.content {
+    font-size: 25pt;
+    color: white;
+}
+
+.bla {
+    color: #999;
+    font-size: 12.5pt;
+    line-height: 25px;
+}
+
+.mxh {
+    margin-top: 60px;
+}
+
+.bgmxh {
+    padding: 15px 20px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 10pt;
+    margin-right: 10px;
+    border: 2px solid white;
+}
+
+.bgmxh:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+
+/*liên hệ*/
+
+.lienhe {
+    background-color: whitesmoke;
+    min-height: auto;
+    z-index: 1;
+}
+
+.lienhe .contact2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.lienhe h1 {
+    color: black;
+    font-size: 40pt;
+    font-weight: 300;
+    margin-top: 150px;
+}
+
+.lienhe p {
+    color: #888;
+    margin-bottom: 50px;
+    font-size: 12pt;
+}
+
+.lienhe .diachi {
+    margin-top: 20px;
+}
+
+.lienhe .diachi iframe {
+    width: 450px;
+    height: 450px;
+}
+
+.lienhe .mess .ipw1 {
+    width: 99.5%;
+}
+
+.lienhe .mess .ipw2 {
+    width: 99.5%;
+    min-height: 200px;
+}
+
+.info {
+    width: 39%;
+    float: left;
+}
+
+.mess {
+    width: 58%;
+    float: right;
+}
+
+input[type="text"] {
+    width: 49%;
+    min-height: 40px;
+    margin-bottom: 25px;
+}
+
+input[type="email"] {
+    width: 49%;
+    min-height: 40px;
+    margin-left: 0px;
+    margin-bottom: 25px;
+}
+
+input[type="text"]:hover {
+    border: 2px ridge black;
+}
+
+input[type="email"]:hover {
+    border: 2px ridge black;
+}
+
+input[type="password"]:hover {
+    border: 2px ridge black;
+}
+
+.lienhe button {
+    width: 30%;
+    min-height: 50px;
+    background-color: black;
+    color: white;
+    border: 2px black;
+}
+
+.lienhe button:hover {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: 2px ridge black;
+}
+
+#kq {
+    margin-top: 50px;
+    width: 100%;
+    color: black;
+    font-size: 14pt;
+}
+
+#error {
+    margin-top: 50px;
+    width: 100%;
+    background-color: yellow;
+    min-height: auto;
+    line-height: 40px;
+    text-align: center;
+}
+
+#error b {
+    color: red !important;
+    font-weight: bold;
+}
+
+#kq b {
+    color: darkblue;
+    font-weight: bold;
+}
+
+
+/*follow me*/
+
+.followme {
+    background-color: white;
+    min-height: auto;
+}
+
+.left {
+    float: left;
+    width: 65%;
+    padding: 50px 0px;
+}
+
+.left h3 {
+    font-size: 20pt;
+    color: rgb(70, 68, 68);
+}
+
+.right {
+    float: right;
+    width: 35%;
+    padding: 77.5px 0px;
+    text-align: end;
+}
+
+.sub {
+    background-color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 15pt;
+    font-weight: 800;
+    border: 2px black solid;
+    padding: 15px 20px;
+}
+
+.sub:hover {
+    background-color: black;
+    color: white;
+}
+
+
+/*---footer---------*/
+
+
+/* .footer {
+    float: left;
+    width: 100%;
+    background-color: black;
+    min-height: auto;
+    text-align: center;
+}
+
+.footer .text .tym {
+    font-size: 12px;
+    color: red;
+    height: 10px;
+}
+
+.admin img {
+    width: 10%;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.text {
+    color: #888;
+    margin-bottom: 50px;
+}
+
+.text p {
+    font-size: 10pt;
+}
+
+.text a {
+    text-decoration: none;
+    color: rgb(8, 224, 240);
+} */
+
+
+/*---footer2---------*/
+
+.footer {
+    float: left;
+    width: 100%;
+    background-color: burlywood;
+    min-height: auto;
+}
+
+.mbt10 {
+    margin-bottom: 10px;
+}
+
+.pdright30 {
+    padding-right: 30px;
+}
+
+.pdleft30 {
+    padding-left: 30px;
+}
+
+.contact-certification img {
+    width: 15%;
+    margin-right: 15px;
+    border-radius: 30px;
+}
+
+.box33 {
+    width: calc(33.333% - 30px);
+    min-height: auto;
+    float: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.box16 {
+    width: 16.666%;
+    min-height: auto;
+    float: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.noclear {
+    list-style: none;
+    margin-left: -38px;
+}
+
+.allfooter h3 {
+    margin-top: 0px !important;
+}
+
+li a {
+    line-height: 25px;
+    text-decoration: none;
+    color: black !important;
+}
+
+.sub2 input[type="email"] {
+    width: 80%;
+    min-height: 30px;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
+.sub2 button {
+    min-height: 30px;
+    margin-left: 0px;
+    margin-top: 20px !important;
+}
+
+
+/* phần gọi thêm */
+
+.all80 {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.row {
+    float: left;
+    width: 100%;
+    min-height: auto;
+}
+
+
+/*product*/
+
+.paddingnone {
+    padding: 69px 0px;
+}
+
+section .product {
+    width: 100%;
+    float: left;
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+
+.product p {
+    font-size: 18pt;
+    font-weight: bold;
+    margin: 0px 0px;
+    border-bottom: 4px solid black;
+}
+
+.product i {
+    font-size: 16pt !important;
+    margin: 0px 5px;
+    color: red;
+}
+
+.product span {
+    color: black;
+    font-size: 14pt !important;
+}
+
+
+/* comment */
+
+.titlecmt {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.mt0 {
+    margin-top: -18px;
+}
+
+textarea {
+    margin-left: 5px;
+}
+
+input[type="submit"] {
+    width: 30% !important;
+    min-height: 37px;
+    margin-right: 5px;
+    float: right;
+    background-color: rgb(98, 171, 245);
+    border: none;
+}
+
+input[type="submit"]:hover {
+    border: 2px solid black;
+}
+
+.boxcmt {
+    float: left;
+    width: 100%;
+    margin: 2px 0px;
+}
+
+.boxcmt p {
+    float: left;
+    font-size: 12pt;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 4px 0px;
+}
+
+.boxcmt span {
+    font-size: 10pt;
+    float: left;
+    padding: 4px 5px;
+    /* background-color: rgb(170, 226, 252); */
+}
